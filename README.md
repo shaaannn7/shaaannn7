@@ -1,4 +1,4 @@
-(https://github.com/user-attachments/files/26785413/ReadMe.1.md)# 💫 About Me:
+💫 About Me:
 i'm a student name shaan persuing b.tech from jecrc foundation, jaipur batch 29' in the branch AI&DS 
 
 
