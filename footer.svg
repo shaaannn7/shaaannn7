@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0c29"/>
+      <stop offset="45%" stop-color="#302b63"/>
+      <stop offset="100%" stop-color="#24243e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="120" fill="url(#bg)"/>
+
+  <!-- Stars -->
+  <g fill="white">
+    <circle cx="100" cy="90" r="1"   opacity="0.5"><animate attributeName="opacity" values="0.5;1;0.2;0.5" dur="3.0s" repeatCount="indefinite"/></circle>
+    <circle cx="280" cy="80" r="1.5" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;1;0.6" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="470" cy="95" r="1"   opacity="0.7"><animate attributeName="opacity" values="0.7;0.3;1;0.7" dur="3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="650" cy="85" r="1.5" opacity="0.4"><animate attributeName="opacity" values="0.4;1;0.5;0.4" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="92" r="1"   opacity="0.6"><animate attributeName="opacity" values="0.6;1;0.2;0.6" dur="4.1s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Wave back (slow) -->
+  <path fill="rgba(0,216,255,0.10)">
+    <animate attributeName="d"
+      values="M0,45 C100,65 200,25 300,45 C400,65 500,25 600,45 C700,65 800,25 900,45 L900,0 L0,0 Z;
+              M0,35 C100,45 200,35 300,25 C400,45 500,35 600,25 C700,45 800,35 900,25 L900,0 L0,0 Z;
+              M0,45 C100,65 200,25 300,45 C400,65 500,25 600,45 C700,65 800,25 900,45 L900,0 L0,0 Z"
+      dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Wave front (fast) -->
+  <path fill="rgba(0,216,255,0.18)">
+    <animate attributeName="d"
+      values="M0,30 C150,50 300,10 450,30 C600,50 750,10 900,30 L900,0 L0,0 Z;
+              M0,22 C150,32 300,22 450,15 C600,32 750,18 900,22 L900,0 L0,0 Z;
+              M0,30 C150,50 300,10 450,30 C600,50 750,10 900,30 L900,0 L0,0 Z"
+      dur="4s" repeatCount="indefinite"/>
+  </path>
+</svg>

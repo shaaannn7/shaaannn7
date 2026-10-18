@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Shaan&fontSize=70&fontAlignY=38&animation=twinkling&desc=AI%20%26%20Data%20Science%20%7C%20Full-Stack%20Developer&descAlignY=58&descSize=18" width="100%" alt="Animated waving header for Shaan" />
+<img src="header.svg" width="100%" alt="Animated waving header for Shaan" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00D8FF&center=true&vCenter=true&width=700&lines=B.Tech+AI+%26+Data+Science+student;Full-Stack+%C2%B7+AI+%C2%B7+Problem+Solver;Always+building+something" alt="Typing animation: B.Tech AI and Data Science student, full-stack, AI, problem solver" />
 
@@ -126,6 +126,6 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%" alt="Animated waving footer" />
+<img src="footer.svg" width="100%" alt="Animated waving footer" />
 
 </div>
